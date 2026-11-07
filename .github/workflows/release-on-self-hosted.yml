@@ -3,7 +3,7 @@ name: Auto Build Release (Self-hosted)
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '1 14 * * *'
 
 env:
   UPSTREAM_OWNER: "rancher"  # 上游开发者/组织名
